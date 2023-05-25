@@ -1,5 +1,13 @@
 #include "shell.h"
 
+/**
+ * cmdExec - function that executes cmds passed as input
+ * @argv - command line input
+ * @actualCmd - command appended to its path
+ * @
+ *  Return: Always 0 on success otherwise -1
+ */
+
 void cmdExec(char **argv)
 {
         char *cmd = NULL; *actualCmd = NULL;

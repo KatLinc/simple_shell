@@ -1,5 +1,13 @@
 #include "shell.h"
 
+/**
+ * hardshell - my own shell program
+ * @input: Stores data taken from the user
+ * @inputSize: stores the size of input stored
+ * @userInput: number of bytes returned
+ *  Return: Always 0 on success otherwise -1
+ */
+
 int main(int ac, char **argv)
 {
     char *prompt = "#";
