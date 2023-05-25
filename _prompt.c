@@ -62,7 +62,7 @@ void _prompt(char **av, char **env)
         {
             if (execve(argv[0], argv, env) == -1)
             {
-                _print ("%s: No such file or directory\n", av[0]);
+                printf ("%s: No such file or directory\n", av[0]);
             }
         }
 	/*wait for the child process to terminate and reap it*/
