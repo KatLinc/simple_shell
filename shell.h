@@ -6,13 +6,11 @@
 #include <stdlib.h>
 #include <string.h>
 #include <sys/types.h>
-#include <sys/wait.h>
-#include <stdarg.h>
+#include <sys/stat.h>
 
 
-#define MAX_CMD 15
-#define MAX_CMDLEN 50
+void cmdExec(char **argv);
 char *getPath(char *cmd);
-void _prompt(char **av, char **env);
+
 
 #endif
